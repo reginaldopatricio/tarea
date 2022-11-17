@@ -5,7 +5,7 @@ body{
 /* Contenedor*/
 .container{
     /*poner una altura falsa*/
-   height: 100vh;
+   height: 200vh;
    /*fondo de web*/
    background-color: #F9F9E2;
    /*ancho controlado*/
@@ -66,5 +66,37 @@ header{
     /*margen*/
     margin-top: 60px;
 
+}
 
+.circulorectangulo{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.reverso{
+    flex-flow: row-reverse nowrap;
+}
+
+.circuloverde{
+    /*color*/
+    background-color: mediumseagreen;
+    /*forma*/
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    /*margen*/ 
+    margin-top: 100px;;
+    flex-shrink: 0;
+}
+
+.rectanguloverde{
+    /*color*/
+    background-color: darkgreen;
+    /*forma*/
+    height: 300px;
+    /*margen*/
+    margin-top: 100px;
+    flex-basis: 70%;
 }

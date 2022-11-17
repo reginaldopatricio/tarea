@@ -14,7 +14,7 @@ body{
    margin: 0 auto;
    /*margenes*/
    box-sizing: border-box;
-   padding: 100px 100px 100px 100px;
+   padding: 35px 60px 0 60px;
    
 }
 
@@ -26,6 +26,7 @@ body{
    width: 200px;
    height: 200px;
    border-radius: 50%;
+   /*margen*/
    margin: 20px;
    
     
@@ -55,4 +56,15 @@ header{
     border-radius: 150px;
     /*margen*/
     margin-top: 100px;
+}
+
+.rectanguloblanco{
+    /*color*/
+    background-color:blanchedalmond;
+    /*forma*/
+    height: 300px;
+    /*margen*/
+    margin-top: 60px;
+
+
 }

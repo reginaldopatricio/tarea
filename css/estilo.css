@@ -1,3 +1,5 @@
+/*html*/
+
 body{
     background-color: #686868;
     
@@ -60,11 +62,13 @@ header{
 
 .rectanguloblanco{
     /*color*/
-    background-color:blanchedalmond;
+    background-color:white;
     /*forma*/
     height: 300px;
     /*margen*/
     margin-top: 60px;
+    text-align: justify;
+   
 
 }
 
@@ -77,6 +81,7 @@ header{
 
 .reverso{
     flex-flow: row-reverse nowrap;
+    text-align: right;
 }
 
 .circuloverde{
@@ -89,14 +94,18 @@ header{
     /*margen*/ 
     margin-top: 100px;;
     flex-shrink: 0;
+    
 }
 
 .rectanguloverde{
     /*color*/
-    background-color: darkgreen;
+    background-color: white;
     /*forma*/
     height: 300px;
     /*margen*/
     margin-top: 100px;
     flex-basis: 70%;
+    text-align: justify;
 }
+
+/*HACER EL BRANCH PARA EL CONTENIDO*/

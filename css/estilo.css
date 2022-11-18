@@ -1,6 +1,6 @@
-/*html*/
-
-
+html{
+    font-size: 16px;
+}
 
 body{
     background-color: #686868;
@@ -18,7 +18,7 @@ body{
    margin: 0 auto;
    /*margenes*/
    box-sizing: border-box;
-   padding: 35px 60px 0 60px;
+   
    
 }
 
@@ -39,6 +39,7 @@ body{
 header{
     display: flex;
     align-items: center;
+    padding: 35px 60px 0 60px;
     
 }
 
@@ -60,6 +61,8 @@ header{
     border-radius: 150px;
     /*margen*/
     margin-top: 100px;
+    
+    
 }
 
 .rectanguloblanco{
@@ -69,9 +72,12 @@ header{
     height: 300px;
     /*margen*/
     margin-top: 60px;
+    font-size: 3rem;
     text-align: justify;
-   
 
+}
+.rectangulo-2{
+    padding: 35px 60px 0 60px;
 }
 
 .circulorectangulo{
@@ -79,6 +85,9 @@ header{
     justify-content: space-between;
     text-align: center;
     margin: 100px 0;
+    border-radius: 50%;
+    padding: 35px 60px 0 60px;
+    
 }
 
 .reverso{
@@ -88,13 +97,13 @@ header{
 
 .circuloverde{
     /*color*/
-    background-color: mediumseagreen;
+    background-color: rgb(77, 199, 77);
     /*forma*/
     width:300px;
     height: 300px;
     border-radius: 50%;
     /*margen*/ 
-    margin-top: 100px;;
+    margin-top: 100px;
     flex-shrink: 0;
     
 }
@@ -107,7 +116,26 @@ header{
     /*margen*/
     margin-top: 100px;
     flex-basis: 70%;
+    font-size: 1.8rem;
     text-align: justify;
 }
 
-/*HACER EL BRANCH PARA EL CONTENIDO*/
+.footer{
+    background-color: black;
+    height: 30vh;
+    padding: 35px 60px 0 60px;
+    
+}
+
+.circulofooter{
+     /*color*/
+     background-color: orange;
+     /*forma*/
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     /*margen*/
+    
+}
+
+

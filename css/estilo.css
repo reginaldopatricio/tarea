@@ -121,9 +121,11 @@ header{
 }
 
 .footer{
+    /*color*/
     background-color: black;
+    /*forma*/
     height: 30vh;
-    padding: 35px 60px 0 60px;
+    padding: 75px 60px 0 60px;
     
 }
 

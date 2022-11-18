@@ -4,12 +4,9 @@ html{
 
 body{
     background-color: #686868;
-    
 }
 /* Contenedor*/
 .container{
-    /*poner una altura falsa*/
-   height: 200vh;
    /*fondo de web*/
    background-color: #F9F9E2;
    /*ancho controlado*/
@@ -18,8 +15,6 @@ body{
    margin: 0 auto;
    /*margenes*/
    box-sizing: border-box;
-   
-   
 }
 
 /*circulo representando la zona del logo*/
@@ -37,9 +32,11 @@ body{
 }
 
 header{
+    /* Display */
     display: flex;
     align-items: center;
-    padding: 35px 60px 0 60px;
+    /* Padding */
+    padding: 4rem 2rem 2rem 0;
     
 }
 
@@ -60,7 +57,7 @@ header{
     height: 600px;
     border-radius: 150px;
     /*margen*/
-    margin-top: 100px;
+    margin: 100px 2rem 0 2rem;
     
     
 }
@@ -70,28 +67,37 @@ header{
     background-color:white;
     /*forma*/
     height: 300px;
-    /*margen*/
-    margin-top: 60px;
+    /* font-size */
     font-size: 3rem;
     text-align: justify;
-
+    /* margin */
+    margin: 4rem 2rem 2rem 2rem;
+    /* border */
+    border-radius: 4rem;
 }
 .rectangulo-2{
+    /* padding */
     padding: 35px 60px 0 60px;
 }
 
 .circulorectangulo{
+    /* display */
     display: flex;
     justify-content: space-between;
     text-align: center;
+    /* margin */
     margin: 100px 0;
+    /* border */
     border-radius: 50%;
+    /* padding */
     padding: 35px 60px 0 60px;
     
 }
 
 .reverso{
+    /* flex flow */
     flex-flow: row-reverse nowrap;
+    /* align */
     text-align: right;
 }
 
@@ -110,7 +116,7 @@ header{
 
 .rectanguloverde{
     /*color*/
-    background-color: white;
+    background-color: olivedrab;
     /*forma*/
     height: 300px;
     /*margen*/

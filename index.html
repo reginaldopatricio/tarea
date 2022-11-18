@@ -1,56 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <!-- * titulo -->
+    <title>Tarea</title>
+    <!-- * Links a css  -->
+    <!-- * Normalize (archivo para reset predefinido) -->
     <link rel="stylesheet" href="css/normalize.css">
+    <!-- *Estilos para reset propios -->
     <link rel="stylesheet" href="css/reset.css">
+    <!-- *Estilos generales -->
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
+    <!-- * Div container para introducir toda la información y marcar un max-width -->
     <div class="container">
-        
+        <!-- * Header con dos div -->
         <header>
-            <!--Header-->
-            <!--circulo-->
+            <!-- * Logo header circulo -->
             <div class="circulo"></div> 
-            <!--rectangulo azul-->
+            <!-- * Rectangulo azul header -->
             <div class="rectanguloazul"></div>
-            
         </header> 
-        <div class="rectangulo-2">
-            <!--rectangulo-->
-        <section class="rectangulo"></section> 
-        <!--rectanguloblanco-->
-        <section class="rectanguloblanco"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, adipisci voluptatibus veritatis temporibus distinctio consequatur vel, quae amet sed praesentium exercitationem, in dolores. Perspiciatis deserunt sunt numquam accusantium qui in.
-        Aspernatur corrupti mollitia illum! Ullam itaque hic deserunt quisquam optio tempora cupiditate omnis necessitatibus? 
-        </p></section>
-        </div>
-        
-        <div class="circulorectangulo">
-            <!--circulo-->
-            <div class="circuloverde"></div>
-            <!--rectanguloverde-->
-            <div class="rectanguloverde"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus praesentium ex tempore unde ab alias illo iusto tempora, similique, dolore sequi accusantium, repudiandae veniam? Voluptatibus natus neque corrupti voluptate!
-            Explicabo distinctio, optio exercitationem, nobis est ullam dignissimos asperiores ea aspernatur amet perspiciatis sequi quae reiciendis consequatur et molestiae debitis facere iusto.</p></div>
-        </div>
-
-        <div class="circulorectangulo reverso">
-            <!--circulo-->
-            <div class="circuloverde"></div>
-            <!--rectanguloverde-->
-            <div class="rectanguloverde"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fuga velit id, cumque earum nesciunt eveniet ex omnis deleniti eligendi at tempora eaque consequatur porro quasi necessitatibus rem natus ratione.
-            Incidunt adipisci earum soluta ducimus aperiam doloribus maxime exercitationem. Accusantium, voluptas! Explicabo esse maiores corrupti maxime, cum atque natus perferendis necessitatibus dolorum excepturi asperiores, perspiciatis vel eum repellendus sunt libero.
-            </p></div>
-        </div>
+        <!-- * Se iniciar la sección main con todo el contenido de la página -->
+        <main>
+            <!-- * section con div dentro fondo naranja -->
+            <section class="banner">
+                <!-- *Rectangulo naranja banner -->
+                <div class="rectangulo"></div> 
+            </section>
+            <!-- * Section con un div en el -->
+            <section class="r-blanco">
+                <!-- * rectangulo blanco-->
+            <div class="rectanguloblanco"></div>
+            </section>
+            <!-- * section don dos circulos y rectangulos verdes -->
+            <section class="ciruculo-rectangulo-verde">
+               <!-- *div para almacenar primera pareja circulo rectangulo -->
+                <div class="circulorectangulo">
+                    <!-- * circulo verde 1-->
+                    <div class="circuloverde"></div>
+                    <!--* rectangulo verde 1-->
+                    <div class="rectanguloverde"></div>
+                </div>
+                 <!-- *div para almacenar segunda pareja circulo rectangulo -->
+                <div class="circulorectangulo reverso">
+                    <!--* circulo verde 2-->
+                    <div class="circuloverde"></div>
+                    <!--* rectangulo verde 2-->
+                    <div class="rectanguloverde"></div>
+                </div>
+            </section>
+        </main>
+        <!-- * Footer con circulo naranja y bd negro -->
         <footer class="footer">
             <div class="circulofooter"></div>
         </footer>
-    </div>
-    
-       
-     
+    </div>    
 </body>
 </html>
